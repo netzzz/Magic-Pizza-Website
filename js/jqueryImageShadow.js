@@ -1,0 +1,1 @@
+$("#imageForShadow").css("box-shadow", "3px 3px 6px #000");

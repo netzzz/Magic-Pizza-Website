@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Pizza Home Page</title>
+    <meta name="description" content="Magic Pizza home page, where you can order best pizza in the city">
+    <meta name="robots" content="follow, index">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div style="height: 100%" class="d-flex flex-column min-vh-100 bg-dark">
+        <!-- navbar -->
+        
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><h1><span class="text-danger">Magic</span> <span class="text-warning">Pizza</span></h1></a>
+
+                <button class="navbar-toggler custom-toggler text-warning" type="button" data-toggle="collapse" data-target="#navmenu">
+                    <span class="navbar-toggler-icon">   
+                        
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    
+                </div>
+            </div>
+        </nav>
+
+        <!-- carousel -->
+   
+        <section>
+            <div class="container d-none d-md-block">
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    </div>         
+                </div>
+            </div>
+        </section>
+       
+        <!-- main content -->
+
+        <section class="bg-dark text-light p-5 text-center text-sm-start">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12"><h1 id="titleText"><span class="text-warning">Welcome to <span class="text-danger">Magic</span> Pizza!</span></h1>
+                        <p class="lead my-4 text-left">Our business has been serving best pizza since the 1980s and has competed in the industry by dedicating its attention, energy, and resources to one mission — to be the leader in pizza quality and delivery service! </p>
+                            
+                        <p class="lead my-4 text-left">Making superior-quality pizza is the foundation of <span class="text-danger">Magic</span> <span class="text-warning">Pizza's</span> success. Our secret recipe dough and sauces are made fresh daily, and we use only the highest quality ingredients to ensure our customers are completely satisfied with the <span class="text-danger">Magic</span> <span class="text-warning">Pizza</span> experience!</p></div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 align-self-center">
+                        <p class="text-warning" id="discountText"></p>
+                        <a href="order.html"><button class="btn btn-warning btn-lg">Order Now!</button></a>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12" id="newsText">
+                        
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 align-self-center">
+                            
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="mt-auto p-5 bg-dark text-white text-center position-relative">
+            <div class="container">    
+                <p class="lead text-warning">Copyright &copy; 2023 Nemanja Stevanović <a href="#">
+                    <i class="bi bi-arrow-up-circle text-warning h1"></i>
+                </a> </p>    
+                 
+            
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="js/navigation.js"></script>
+    <script src="js/titleHighlight.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/discount.js"></script>
+    <script src="js/news.js"></script>
+    
+</body>
+</html>
