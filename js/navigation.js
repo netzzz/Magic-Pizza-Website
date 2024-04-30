@@ -1,5 +1,5 @@
-var menuUrls = ["index.html","about.html","menu.html","gallery.html","author.html","dokumentacija/Dokumentacija.pdf"];
-var menuText = ["Home","About","Menu","Gallery","Author","Documentation"];
+var menuUrls = ["index.html","about.html","menu.html","gallery.html","author.html"];
+var menuText = ["Home","About","Menu","Gallery","Author"];
 var menuIspis = `<ul class="navbar-nav ml-auto">`;
 
 const currentUrl = window.location.href;
